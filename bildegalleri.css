@@ -1,0 +1,49 @@
+
+
+.galleri {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  padding: 100px;
+  height: auto;
+  
+}
+
+.galleri img{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+
+.galleri img:hover{
+    transform: scale(1.25);
+
+}
+
+.blur-bg {
+  position: absolute;
+  inset: 0; 
+  background: url(bilder/sol.jpg) center/cover no-repeat;
+  filter: blur(6px);
+  z-index: -1;
+  transform: scale(1.05); 
+ 
+}
+
+.blur-bg2 {
+  position: absolute;
+  inset: 0;  
+  background: url(https://image.forskning.no/2067622.webp?imageId=2067622&x=0.00&y=0.00&cropw=100.00&croph=85.11&width=964&height=552&format=jpg) center/cover no-repeat;
+  filter: blur(6px);
+  z-index: -1;
+  transform: scale(1.05); 
+
+}
+
+
+
+
+
+
